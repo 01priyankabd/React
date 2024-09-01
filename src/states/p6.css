@@ -1,0 +1,33 @@
+.box {
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .box .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: -5px;
+    color: #fff;
+  }
+  
+  .box .inc {
+    background-color: green;
+  }
+  
+  .box .dec {
+    background-color: red;
+  }
+  
+  .box .qnty {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
