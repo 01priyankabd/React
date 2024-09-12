@@ -6,12 +6,16 @@ import Ex3 from './Components/Ex3'
 import Ex4 from './Components/Ex4'
 import Ex5 from './Components/Ex5'
 import Ex6 from './Components/Ex6'
+import Ex7 from './Components/Ex7'
+import Ex8 from './Components/Ex8'
+import Ex9 from './Components/Ex9'
+import Ex10 from './Components/Ex10'
 
 function App(props) {
   return (
     <div>
         <h1>Default Props and proptypes </h1>
-        <Ex6/>
+        <Ex10/>
     </div>
   )
 }
